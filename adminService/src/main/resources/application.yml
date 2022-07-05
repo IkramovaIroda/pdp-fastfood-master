@@ -1,0 +1,19 @@
+server:
+  port: 8081
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+spring:
+  application:
+    name: ADMINSERVICE
+  datasource:
+    username: postgres
+    password: 1227
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/pdp_fastfood
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+debug: true

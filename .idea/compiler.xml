@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="courierMobile" />
+        <module name="discovery" />
+        <module name="orderService" />
+        <module name="clientService" />
+        <module name="clientMobile" />
+        <module name="getaway" />
+        <module name="adminService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="adminService" target="17" />
+      <module name="clientMobile" target="17" />
+      <module name="clientService" target="17" />
+      <module name="courierMobile" target="17" />
+      <module name="discovery" target="17" />
+      <module name="getaway" target="17" />
+      <module name="orderService" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="adminService" options="-parameters" />
+      <module name="clientMobile" options="-parameters" />
+      <module name="clientService" options="-parameters" />
+      <module name="courierMobile" options="-parameters" />
+      <module name="discovery" options="-parameters" />
+      <module name="getaway" options="-parameters" />
+      <module name="orderService" options="-parameters" />
+    </option>
+  </component>
+</project>

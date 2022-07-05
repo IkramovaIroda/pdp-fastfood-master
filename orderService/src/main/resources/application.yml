@@ -1,0 +1,17 @@
+server:
+  port: 8085
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+spring:
+  datasource:
+    username: postgres
+    password: 911368169umid
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/pdp_fastfood
+  jpa:
+    show-sql: true
+debug: true
+
+
